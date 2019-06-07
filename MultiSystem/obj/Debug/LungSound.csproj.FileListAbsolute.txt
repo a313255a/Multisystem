@@ -1,0 +1,30 @@
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\bin\Debug\LungSound.exe.config
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\bin\Debug\LungSound.exe
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\bin\Debug\LungSound.pdb
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\bin\Debug\InTheHand.Net.Personal.dll
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\obj\Debug\LungSound.csprojResolveAssemblyReference.cache
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\obj\Debug\LungSound.LungSound.resources
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\obj\Debug\LungSound.Properties.Resources.resources
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\obj\Debug\LungSound.csproj.GenerateResource.Cache
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\obj\Debug\LungSound.exe
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\obj\Debug\LungSound.pdb
+E:\長庚Case\彥迪收的資料\soft ware\LungSound\LungSound\bin\Debug\Alvas.Audio.dll
+C:\Users\JERRY\Downloads\LungSound\bin\Debug\LungSound.exe.config
+C:\Users\JERRY\Downloads\LungSound\obj\Debug\LungSound.exe
+C:\Users\JERRY\Downloads\LungSound\obj\Debug\LungSound.pdb
+C:\Users\JERRY\Downloads\LungSound\bin\Debug\LungSound.exe
+C:\Users\JERRY\Downloads\LungSound\bin\Debug\LungSound.pdb
+C:\Users\JERRY\Downloads\LungSound\obj\Debug\LungSound.csprojResolveAssemblyReference.cache
+C:\Users\JERRY\Downloads\LungSound\obj\Debug\LungSound.LungSound.resources
+C:\Users\JERRY\Downloads\LungSound\obj\Debug\LungSound.Properties.Resources.resources
+C:\Users\JERRY\Downloads\LungSound\obj\Debug\LungSound.csproj.GenerateResource.Cache
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\LungSound.exe.config
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.exe
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.pdb
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\LungSound.exe
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\LungSound.pdb
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.csprojResolveAssemblyReference.cache
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.LungSound.resources
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.Properties.Resources.resources
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.csproj.GenerateResource.Cache
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\ZedGraph.dll

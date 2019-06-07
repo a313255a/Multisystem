@@ -1,0 +1,410 @@
+﻿[藍芽接收Data ]	2018/9/3 下午 05:00:31
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 494
+[藍芽接收Data ]	2018/9/3 下午 05:03:12
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 494
+[藍芽接收Data ]	2018/9/6 下午 04:51:17
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 494
+[ BT連線錯誤]	2018/9/10 上午 11:40:12
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1888
+[藍芽接收Data ]	2018/9/10 上午 11:46:35
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 494
+[ wavetransfer() ]	2018/9/16 下午 03:50:18
+System.IO.DirectoryNotFoundException: 找不到路徑 'd:\googlecloud\實驗\第三階段程式\2018版本\bin\Debug\data\9\16_LuXin_6MWT_2018916_A1sound.wav' 的一部分。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   於 LungSound.Mutisystem.wavetransfer() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1829
+[ BT連線錯誤]	2018/9/17 下午 08:50:27
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1888
+[ BT連線錯誤]	2018/9/17 下午 08:50:32
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1888
+[ BT連線錯誤]	2018/9/17 下午 08:50:37
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1888
+[藍芽接收Data ]	2018/9/17 下午 09:01:03
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 494
+[藍芽接收Data ]	2018/9/25 下午 07:59:29
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 494
+[藍芽接收Data ]	2018/9/25 下午 08:32:18
+System.IO.IOException: 無法從傳輸連接讀取資料: 連線已被您主機上的軟體中止。。 ---> System.Net.Sockets.SocketException: 連線已被您主機上的軟體中止。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 494
+[ BT連線錯誤]	2018/9/26 上午 09:47:01
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1888
+[ BT連線錯誤]	2018/9/26 上午 10:11:59
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1888
+[ BT連線錯誤]	2018/9/27 下午 08:02:58
+System.Net.Sockets.SocketException (0x80004005): 提供了一個不正確的引數。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/1 上午 09:20:47
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/1 下午 07:07:27
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/1 下午 07:07:32
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/1 下午 07:07:37
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/2 下午 02:55:08
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/2 下午 02:55:33
+System.Net.Sockets.SocketException (0x80004005): 提供了一個不正確的引數。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/2 下午 04:10:31
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/2 下午 04:10:36
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/2 下午 04:10:41
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/2 下午 04:10:46
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[藍芽接收Data ]	2018/10/8 下午 09:37:34
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 495
+[ BT連線錯誤]	2018/10/10 下午 03:42:39
+System.Net.Sockets.SocketException (0x80004005): 提供了一個不正確的引數。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/12 下午 03:34:59
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/12 下午 04:26:20
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[藍芽接收Data ]	2018/10/12 下午 04:36:03
+System.ObjectDisposedException: 無法存取已處置的物件。
+物件名稱: 'System.Net.Sockets.NetworkStream'。
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 495
+[藍芽接收Data ]	2018/10/14 下午 05:34:08
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 495
+[藍芽接收Data ]	2018/10/15 下午 07:35:48
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 495
+[ BT連線錯誤]	2018/10/17 上午 10:23:37
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/17 上午 10:27:07
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1889
+[ BT連線錯誤]	2018/10/22 下午 07:22:34
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[ BT連線錯誤]	2018/10/22 下午 07:22:40
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[ BT連線錯誤]	2018/10/22 下午 07:22:45
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[藍芽接收Data ]	2018/10/22 下午 07:24:12
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 495
+[ BT連線錯誤]	2018/10/23 下午 04:13:45
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[ BT連線錯誤]	2018/10/26 上午 11:01:57
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[ BT連線錯誤]	2018/10/26 上午 11:02:02
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[ BT連線錯誤]	2018/10/26 上午 11:02:07
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[ BT連線錯誤]	2018/10/26 上午 11:02:13
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1890
+[ BT連線錯誤]	2018/10/31 下午 05:08:44
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[藍芽接收Data ]	2018/10/31 下午 05:24:10
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 483
+[ BT連線錯誤]	2018/10/31 下午 06:16:16
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2018/10/31 下午 06:16:21
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2018/11/1 下午 05:25:04
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2018/11/6 下午 03:22:31
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2018/11/6 下午 08:07:55
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2019/2/19 下午 07:49:50
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2019/2/19 下午 07:49:55
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2019/2/19 下午 07:57:33
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2019/2/20 下午 07:58:36
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2019/2/20 下午 07:59:01
+System.Net.Sockets.SocketException (0x80004005): 提供了一個不正確的引數。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[ BT連線錯誤]	2019/2/20 下午 08:02:28
+System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 0008F40278E8:0000110100001000800000805f9b34fb
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 InTheHand.Net.Sockets.SocketBluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 InTheHand.Net.Sockets.BluetoothClient.Connect(BluetoothEndPoint remoteEP)
+   於 LungSound.Mutisystem.BT_connect() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 1891
+[藍芽接收Data ]	2019/2/21 下午 08:12:28
+System.IO.IOException: 無法從傳輸連接讀取資料: 中止操作被 WSACancelBlockingCall 呼叫打斷。。 ---> System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   於 System.IO.Stream.ReadByte()
+   於 LungSound.Mutisystem.ThreadProc() 於 d:\googlecloud\實驗\第三階段程式\2018版本\Mutisystem.cs: 行 495

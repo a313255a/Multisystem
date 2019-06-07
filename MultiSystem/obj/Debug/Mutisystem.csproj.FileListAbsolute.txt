@@ -1,0 +1,78 @@
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\LungSound.exe.config
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\LungSound.exe
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\LungSound.pdb
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\ZedGraph.dll
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\Mutisystem.csprojResolveAssemblyReference.cache
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.Properties.Resources.resources
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\Mutisystem.csproj.GenerateResource.Cache
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.exe
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.pdb
+d:\googledrive\實驗\第三階段程式\20170831試作版本\obj\Debug\LungSound.Mutisystem.resources
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\NAudio.dll
+d:\googledrive\實驗\第三階段程式\20170831試作版本\bin\Debug\NAudio.xml
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\bin\Debug\LungSound.exe.config
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.exe
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.pdb
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\bin\Debug\LungSound.exe
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\bin\Debug\LungSound.pdb
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\bin\Debug\NAudio.dll
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\bin\Debug\ZedGraph.dll
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\bin\Debug\NAudio.xml
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\obj\Debug\Mutisystem.csprojResolveAssemblyReference.cache
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.Mutisystem.resources
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.Properties.Resources.resources
+d:\googledrive\實驗\第三階段程式\20170831alpha版本\obj\Debug\Mutisystem.csproj.GenerateResource.Cache
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\bin\Debug\LungSound.exe.config
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.exe
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.pdb
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\bin\Debug\LungSound.exe
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\bin\Debug\LungSound.pdb
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\bin\Debug\NAudio.dll
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\bin\Debug\ZedGraph.dll
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\bin\Debug\NAudio.xml
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\obj\Debug\Mutisystem.csprojResolveAssemblyReference.cache
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.Mutisystem.resources
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.Properties.Resources.resources
+d:\googlecloud\實驗\第三階段程式\20170831alpha版本\obj\Debug\Mutisystem.csproj.GenerateResource.Cache
+C:\Users\JERRY\Google 雲端硬碟\實驗\第三階段程式\20170831alpha版本\bin\Debug\LungSound.exe.config
+C:\Users\JERRY\Google 雲端硬碟\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.exe
+C:\Users\JERRY\Google 雲端硬碟\實驗\第三階段程式\20170831alpha版本\obj\Debug\LungSound.pdb
+d:\googlecloud\實驗\第三階段程式\2018版本\bin\Debug\LungSound.exe.config
+d:\googlecloud\實驗\第三階段程式\2018版本\obj\Debug\LungSound.exe
+d:\googlecloud\實驗\第三階段程式\2018版本\obj\Debug\LungSound.pdb
+d:\googlecloud\實驗\第三階段程式\2018版本\bin\Debug\LungSound.exe
+d:\googlecloud\實驗\第三階段程式\2018版本\bin\Debug\LungSound.pdb
+d:\googlecloud\實驗\第三階段程式\2018版本\bin\Debug\NAudio.dll
+d:\googlecloud\實驗\第三階段程式\2018版本\bin\Debug\ZedGraph.dll
+d:\googlecloud\實驗\第三階段程式\2018版本\bin\Debug\NAudio.xml
+d:\googlecloud\實驗\第三階段程式\2018版本\obj\Debug\Mutisystem.csprojResolveAssemblyReference.cache
+d:\googlecloud\實驗\第三階段程式\2018版本\obj\Debug\LungSound.Mutisystem.resources
+d:\googlecloud\實驗\第三階段程式\2018版本\obj\Debug\LungSound.Properties.Resources.resources
+d:\googlecloud\實驗\第三階段程式\2018版本\obj\Debug\Mutisystem.csproj.GenerateResource.Cache
+C:\Users\JERRY\Google 雲端硬碟 (a313255a.cop04g@nctu.edu.tw)\實驗\第三階段程式\2018版本\bin\Debug\LungSound.exe.config
+C:\Users\JERRY\Google 雲端硬碟 (a313255a.cop04g@nctu.edu.tw)\實驗\第三階段程式\2018版本\obj\Debug\LungSound.exe
+C:\Users\JERRY\Google 雲端硬碟 (a313255a.cop04g@nctu.edu.tw)\實驗\第三階段程式\2018版本\obj\Debug\LungSound.pdb
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\bin\Debug\LungSound.exe.config
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\obj\Debug\LungSound.exe
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\obj\Debug\LungSound.pdb
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\bin\Debug\LungSound.exe
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\bin\Debug\LungSound.pdb
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\bin\Debug\NAudio.dll
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\bin\Debug\NAudio.xml
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\obj\Debug\Mutisystem.csprojResolveAssemblyReference.cache
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\obj\Debug\LungSound.Mutisystem.resources
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\obj\Debug\LungSound.Properties.Resources.resources
+d:\googlecloud\張瑞杰\6MWT system\C#\MultiSystem\obj\Debug\Mutisystem.csproj.GenerateResource.Cache
+d:\googlecloud\張瑞杰\C#\MultiSystem\bin\Debug\LungSound.exe.config
+d:\googlecloud\張瑞杰\C#\MultiSystem\obj\Debug\LungSound.exe
+d:\googlecloud\張瑞杰\C#\MultiSystem\obj\Debug\LungSound.pdb
+d:\googlecloud\張瑞杰\C#\MultiSystem\bin\Debug\LungSound.exe
+d:\googlecloud\張瑞杰\C#\MultiSystem\bin\Debug\LungSound.pdb
+d:\googlecloud\張瑞杰\C#\MultiSystem\bin\Debug\NAudio.xml
+d:\googlecloud\張瑞杰\C#\MultiSystem\obj\Debug\Mutisystem.csprojResolveAssemblyReference.cache
+d:\googlecloud\張瑞杰\C#\MultiSystem\obj\Debug\LungSound.Mutisystem.resources
+d:\googlecloud\張瑞杰\C#\MultiSystem\obj\Debug\LungSound.Properties.Resources.resources
+d:\googlecloud\張瑞杰\C#\MultiSystem\obj\Debug\Mutisystem.csproj.GenerateResource.Cache
+C:\Users\JERRY\Google 雲端硬碟 (a313255a.cop04g@nctu.edu.tw)\張瑞杰\C#\MultiSystem\bin\Debug\LungSound.exe.config
+C:\Users\JERRY\Google 雲端硬碟 (a313255a.cop04g@nctu.edu.tw)\張瑞杰\C#\MultiSystem\obj\Debug\LungSound.exe
+C:\Users\JERRY\Google 雲端硬碟 (a313255a.cop04g@nctu.edu.tw)\張瑞杰\C#\MultiSystem\obj\Debug\LungSound.pdb
